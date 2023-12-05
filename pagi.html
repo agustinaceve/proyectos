@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<style> 
+	body{
+		background-color: #c7ede8;
+		color: black;
+	}
+	
+	
+header {
+ font-family: fantasy;
+  padding: 20px;
+  color: black;
+  
+
+}
+
+
+nav li {
+  display: inline; /* Muestra los elementos de lista en línea (horizontalmente) */
+  margin-right: 20px; /* Espacio entre elementos de lista */
+}
+/* Estilos para los enlaces (a) dentro de los elementos de lista */
+nav a {
+  text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+  color: #333; /* Color de texto de los enlaces */
+  font-weight: bold; /* Grosor del texto de los enlaces */
+}
+
+/* Estilos adicionales para el enlace (a) al pasar el mouse sobre él */
+nav a:hover {
+  color: #0073e6; /* Cambio de color al pasar el mouse sobre el enlace */
+}
+h2{
+	font-size: 20px;
+}
+main{
+	font-family:optima ;
+	color: black;
+}
+
+img{
+		width: 1450px;
+		padding-left: 0px;
+		border: 5px;
+		height:400px ;
+
+	}
+	
+footer {
+  background-color: #45b5c4;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  color: black;
+}
+
+H1{
+	font-family: 'Arial', sans-serif; /* Fuente de texto del título */
+  font-size: 36px; /* Tamaño de fuente del título */
+  font-weight: bold; /* Grosor del texto del título */
+  color: #0073e6; /* Color del texto del título */
+  text-transform: uppercase; /* Convertir el título en mayúsculas */
+  letter-spacing: 2px; /* Espaciado entre letras del título */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra de texto del título */
+  margin: 0; /* Eliminar el margen del título */
+  text-align: center;
+
+
+}
+h2{
+	color: #0073e6;
+  font-weight: normal;
+  font-size: 30px;
+  font-family: Arial;
+  text-transform: uppercase;
+  text-align: center;
+}
+p{
+	text-align: center; 
+
+}
+
+.box{
+	box-shadow: 0 0 10px rgb(0, 0, 0, 30%);
+	width: 250px;
+	height: 250px;
+	border-radius: 20px;
+	overflow: hidden;
+	border: 1px solid ;
+	position: absolute;
+	color: black;
+
+}
+.btn-animado {
+display: flex;
+height: 6vh;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0.9em 2.6em;
+  font-size: var(--size, 0.9rem);
+  border: none;
+  text-align: center;
+  align-items: center;
+    color: var(--btn-bg-color);
+  box-shadow: 10px 10px 50px rgba(90, 284, 355, 0.5), 10px 5px 5px -1px rgba(58, 225, 333, 0.25), inset 2px 2px 8px rgba(75, 230, 255, 0.5), inset -8px -4px 8px rgba(19, 95, 216, 0.35);
+}
+
+
+#encabezado{
+	
+  font-family: 'Arial', sans-serif; /* Establece la fuente de texto */
+  font-size: 24px; /* Tamaño de fuente */
+  font-weight: bold; /* Grosor del texto */
+  color: #0073e6; /* Color del texto */
+  text-transform: uppercase; /* Convierte el texto en mayúsculas */
+  letter-spacing: 2px; /* Espaciado entre letras */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra de texto */
+  background-color: #f0f0f0; /* Color de fondo */
+  padding: 10px; /* Espaciado interno */
+  border: 2px solid #333; /* Borde sólido */
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra de la caja */
+  text-align: center;
+
+}
+fieldset{
+
+    border: 2px solid #333; /* Borde sólido de 2px con color #333 */
+    border-radius: 5px;    /* Bordes redondeados */
+    padding: 10px;         /* Espaciado interior de 10px */
+    background-color: #white; /* Color de fondo */
+    margin: 10px;          /* Margen exterior de 10px */
+  }
+  #logo img{
+  	width: 150px;
+  	height: 100px;
+
+  }
+
+e{
+
+  font-family: 'Arial', sans-serif; /* Fuente de texto del título */
+  font-size: 36px; /* Tamaño de fuente del título */
+  font-weight: bold; /* Grosor del texto del título */
+  color: #0073e6; /* Color del texto del título */
+  text-transform: uppercase; /* Convertir el título en mayúsculas */
+  letter-spacing: 2px; /* Espaciado entre letras del título */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra de texto del título */
+  margin: 0; /* Eliminar el margen del título */
+
+
+}
+ .image-container {
+    display: flex; /* Utiliza un modelo de caja flexible para alinear las imágenes horizontalmente */
+    
+
+  }
+
+  /* Estilos para cada imagen */
+  .image {
+    width: 300px; /* Ancho de la imagen */
+    height: 250px; /* Altura de la imagen */
+    margin-right: 60px; /* Espacio entre las imágenes (margen derecho) */
+
+  }
+  .image-container2 {
+    display: flex; /* Utiliza un modelo de caja flexible para alinear las imágenes horizontalmente */
+  
+  }
+
+  /* Estilos para cada imagen */
+  .image {
+    width: 300px; /* Ancho de la imagen */
+    height: 250px; /* Altura de la imagen */
+    margin-right: 40px; /* Espacio entre las imágenes (margen derecho) */
+  }
+</style>
+
+<body>
+
+
+	<font size="5"><!--tamañoletra-->
+		<div id ="logo">
+	<img src="https://www.zarla.com/images/zarla-refljate-1x1-2400x2400-20220114-vyb6bbd4rt9w97f687j6.png?crop=1:1,smart&width=250&dpr=2">
+	<e>Ofrecemos soluciones de vidrio para tus necesidades</e>
+</div>
+	
+	<header><!--encabezado-->
+
+<div id ="encabezado"> <!--extension-->
+    <nav><!--enlace de navegacion dentro o fuera del documento-->
+      <ul><!--lista no ordenada-->
+        <li><a href="#nosotros">Nosotros</a></li><!--link-->
+        <li><a href="#productos">Productos</a></li>    
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+	</header>
+	
+	<h1>BIENVENIDOS</h1>
+	<br>
+	<fieldset >
+		<img src="https://cosmosglasssolution.com/Blog/wp-content/uploads/2020/01/Usos-del-vidrio-templado.jpg">
+		
+		<p>Vidrieria especializada en la venta y colocacion de cristales </p>
+	</fieldset>
+	
+	<main>
+  
+    	<br>
+      
+      </h1>
+      <br>
+    </section>
+	  <section id="nosotros">
+    	<h2>NOSOTROS</h2>
+    	<fieldset>
+    	<p>Acevedo Vidrios SRL es una empresa privada especializada en la venta y colocacion de vidrios.
+    		<br>
+	Equipo y experiencia: Un equipo de 30 profesionales altamente capacitados en el sector del vidrio, quienes poseen un amplio conocimiento técnico y experiencia en el manejo de materiales.
+	<br> 
+	Con una trayectoria sólida y experiencia en el mercado, nos hemos posicionado como referentes en la industria gracias a la calidad de nuestros productos y nuestro compromiso con la satisfacción del cliente. 
+	<br>
+		contamos con instalaciones de vanguardia equipadas con maquinaria y tecnología avanzada para la fabricación de vidrios de alta calidad.
+	<br>
+	  Esto nos permite garantizar que nuestros productos cumplan con los estándares más exigentes de  resistencia y seguridad.</p>
+	  <div class="image-container">
+  <img src="C:xampp\htdocs\PrimerParcialLAB1\imagen\or.jpg" alt="Imagen 1" class="image">
+  <img src="https://adenuniversity.us/files/sites/3/2020/01/equipo-trabajo.jpg" alt="Imagen 2" class="image">
+ 
+</div>
+	  
+<br>
+</fieldset>
+
+
+
+<button class="btn-animado">
+<a href="#encabezado">Volver al inicio</a>
+</button>
+    </section>
+    <br>
+    <br>
+    <section id="productos">
+    	<h2>PRODUCTOS</h2>
+    	<fieldset>
+    	<p>Productos y servicios: Ofrecemos una amplia variedad de vidrios d para satisfacer las necesidades de nuestros clientes. 
+    		<br>
+    		Entre nuestros productos destacan:
+    		<br>
+Vidrios para ventanas en diferentes tamaños, formas y tipos, incluyendo vidrios templados, laminados y de doble acristalamiento.
+<br>
+Vidrios decorativos
+<br>
+Vidrios para fachadas:
+<br>
+Vidrios para muebles a medida para mesas, estantes, vitrinas y demas, en diferentes espesores y acabados.</p>
+    	<br>
+    	<br>
+    	<div class="image-container2">
+  
+  <img src="https://molinavidrios.com.ar/wp-content/uploads/2020/05/Untitled-6111.jpg" alt="Imagen 2" class="image">
+ 
+  <img src="https://img.interempresas.net/fotos/1833838.jpeg"alt="Imagen 2" class="image">
+  <img src="https://w1.mundolamina.com.ar/wp-content/uploads/2018/06/vidriotemplado-1.jpg"alt="Imagen 2" class="image">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJavcuYdu9D5gTK2U_x560C4q7Qt786jNkcWBnuu9rnjAUD8VIROv6RUmU8yTqUiUr2Zg&usqp=CAU"alt="Imagen 2" class="image">
+</div>
+    	
+    	</fieldset>
+
+    </section>
+    <button class="btn-animado">
+    <a href="#encabezado">Volver al inicio</a>
+</button>
+<br>
+<br>
+<br>
+<br>
+<br>
+ <footer>
+<section id="contacto">
+      <h2>CONTACTO</h2>
+      <p>Estamos ubicados en la calle Principal, Monseñor diaz 334 B.R.S.</p>
+      <h3>Teléfono: 381648390</h3>
+      <p>Email: acevedovidrios20@.com</p>
+    </section>
+<p>Derechos de autor Agustina acevedo 2023</p>
+  </main>
+  <button class="btn-animado">
+<a href="#encabezado">Volver al inicio</a>
+</button>
+ 
+    
+  </footer>
+
+
+	
+</body>
+</html>
